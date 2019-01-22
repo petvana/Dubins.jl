@@ -1,7 +1,7 @@
 var documenterSearchIndex = {"docs": [
 
 {
-    "location": "index.html#",
+    "location": "#",
     "page": "Home",
     "title": "Home",
     "category": "page",
@@ -9,7 +9,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "index.html#Dubins.jl-Documentation-1",
+    "location": "#Dubins.jl-Documentation-1",
     "page": "Home",
     "title": "Dubins.jl Documentation",
     "category": "section",
@@ -17,7 +17,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "index.html#Overview-1",
+    "location": "#Overview-1",
     "page": "Home",
     "title": "Overview",
     "category": "section",
@@ -25,7 +25,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "index.html#Installation-1",
+    "location": "#Installation-1",
     "page": "Home",
     "title": "Installation",
     "category": "section",
@@ -33,7 +33,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "api.html#",
+    "location": "api/#",
     "page": "API Documentation",
     "title": "API Documentation",
     "category": "page",
@@ -41,7 +41,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "api.html#API-Documentation-and-Usage-1",
+    "location": "api/#API-Documentation-and-Usage-1",
     "page": "API Documentation",
     "title": "API Documentation and Usage",
     "category": "section",
@@ -49,7 +49,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "api.html#Dubins-paths/shortest-Dubins-path-1",
+    "location": "api/#Dubins-paths/shortest-Dubins-path-1",
     "page": "API Documentation",
     "title": "Dubins paths/shortest Dubins path",
     "category": "section",
@@ -57,7 +57,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "api.html#Sub-path-extraction-1",
+    "location": "api/#Sub-path-extraction-1",
     "page": "API Documentation",
     "title": "Sub-path extraction",
     "category": "section",
@@ -65,7 +65,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "api.html#Sampling-a-Dubins-path-1",
+    "location": "api/#Sampling-a-Dubins-path-1",
     "page": "API Documentation",
     "title": "Sampling a Dubins path",
     "category": "section",
@@ -73,7 +73,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "library.html#",
+    "location": "library/#",
     "page": "Library",
     "title": "Library",
     "category": "page",
@@ -81,143 +81,143 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "library.html#Dubins.DubinsPath",
+    "location": "library/#Dubins.DubinsPath",
     "page": "Library",
     "title": "Dubins.DubinsPath",
     "category": "type",
-    "text": "The data structure that holds the full dubins path.\n\nIts data fields are as follows:\n\nthe initial configuration, qi,\nthe params vector that contains the length of each segment, params,\nthe turn-radius, ρ, and,\nthe Dubins path type given by the @enum DubinsPathType\n\n\n\n"
+    "text": "The data structure that holds the full dubins path.\n\nIts data fields are as follows:\n\nthe initial configuration, qi,\nthe params vector that contains the length of each segment, params,\nthe turn-radius, ρ, and,\nthe Dubins path type given by the @enum DubinsPathType\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.DubinsPath-Tuple{}",
+    "location": "library/#Dubins.DubinsPath-Tuple{}",
     "page": "Library",
     "title": "Dubins.DubinsPath",
     "category": "method",
-    "text": "Empty constructor for the DubinsPath type\n\n\n\n"
+    "text": "Empty constructor for the DubinsPath type\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_extract_subpath-Tuple{Dubins.DubinsPath,Float64}",
+    "location": "library/#Dubins.dubins_extract_subpath-Tuple{DubinsPath,Float64}",
     "page": "Library",
     "title": "Dubins.dubins_extract_subpath",
     "category": "method",
-    "text": "Convenience function to extract a sub-path\n\npath          - an initialized path\nt             - a length measure, where 0 < t < dubins_path_length(path)\nreturn        - zero on successful completion and the subpath\n\n\n\n"
+    "text": "Convenience function to extract a sub-path\n\npath          - an initialized path\nt             - a length measure, where 0 < t < dubinspathlength(path)\nreturn        - zero on successful completion and the subpath\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_path-Tuple{Array{Float64,1},Array{Float64,1},Float64,Dubins.DubinsPathType}",
+    "location": "library/#Dubins.dubins_path-Tuple{Array{Float64,1},Array{Float64,1},Float64,DubinsPathType}",
     "page": "Library",
     "title": "Dubins.dubins_path",
     "category": "method",
-    "text": "Generate a path with a specified word from an initial configuratioon to a target configuration, with a specified turning radius\n\nq0        - a configuration specified by a 3-element vector x, y, theta\nq1        - a configuration specified by a 3-element vector x, y, theta\nρ         - turning radius of the vehicle\npath_type - the specified path type to use\nreturn    - tuple (error code, dubins path). If error code != 0, then nothing is returned as the second argument\n\n\n\n"
+    "text": "Generate a path with a specified word from an initial configuratioon to a target configuration, with a specified turning radius\n\nq0        - a configuration specified by a 3-element vector x, y, theta\nq1        - a configuration specified by a 3-element vector x, y, theta\nρ         - turning radius of the vehicle\npath_type - the specified path type to use\nreturn    - tuple (error code, dubins path). If error code != 0, then nothing is returned as the second argument\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_path_endpoint-Tuple{Dubins.DubinsPath}",
+    "location": "library/#Dubins.dubins_path_endpoint-Tuple{DubinsPath}",
     "page": "Library",
     "title": "Dubins.dubins_path_endpoint",
     "category": "method",
-    "text": "Convenience function to identify the endpoint of a path\n\npath          - an initialized path\nreturn        - tuple containing (zero on successful completion and the end configuration [x,y,Θ])\n\n\n\n"
+    "text": "Convenience function to identify the endpoint of a path\n\npath          - an initialized path\nreturn        - tuple containing (zero on successful completion and the end configuration [x,y,Θ])\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_path_length-Tuple{Dubins.DubinsPath}",
+    "location": "library/#Dubins.dubins_path_length-Tuple{DubinsPath}",
     "page": "Library",
     "title": "Dubins.dubins_path_length",
     "category": "method",
-    "text": "Calculate the length of an initialized path\n\npath      - path to find the length of\nreturn    - path length\n\n\n\n"
+    "text": "Calculate the length of an initialized path\n\npath      - path to find the length of\nreturn    - path length\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_path_sample-Tuple{Dubins.DubinsPath,Float64}",
+    "location": "library/#Dubins.dubins_path_sample-Tuple{DubinsPath,Float64}",
     "page": "Library",
     "title": "Dubins.dubins_path_sample",
     "category": "method",
-    "text": "Calculate the configuration along the path, using the parameter t\n\npath      - an initialized path\nt         - length measure where 0 <= t < dubins_path_length(path)\nreturn    - tuple containing non-zero error code if \'t\' is not in the correct range and the configuration result [x, y, θ]\n\n\n\n"
+    "text": "Calculate the configuration along the path, using the parameter t\n\npath      - an initialized path\nt         - length measure where 0 <= t < dubinspathlength(path)\nreturn    - tuple containing non-zero error code if \'t\' is not in the correct range and the configuration result [x, y, θ]\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_path_sample_many-Tuple{Dubins.DubinsPath,Float64}",
+    "location": "library/#Dubins.dubins_path_sample_many-Tuple{DubinsPath,Float64}",
     "page": "Library",
     "title": "Dubins.dubins_path_sample_many",
     "category": "method",
-    "text": "Walk along the path at a fixed sampling interval, calling the callback function at each interval\n\nThe sampling process continues until the whole path is sampled, or the callback returns a non-zero value\n\npath         - the path to sample\nstep_size    - the distance along the path for subsequent samples\nreturn       - tuple (error code, configuration vector). If error code != 0, then nothing is returned as the second argument\n\n\n\n\n\n"
+    "text": "Walk along the path at a fixed sampling interval, calling the callback function at each interval\n\nThe sampling process continues until the whole path is sampled, or the callback returns a non-zero value\n\npath         - the path to sample\nstep_size    - the distance along the path for subsequent samples\nreturn       - tuple (error code, configuration vector). If error code != 0, then nothing is returned as the second argument\n\n\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_path_type-Tuple{Dubins.DubinsPath}",
+    "location": "library/#Dubins.dubins_path_type-Tuple{DubinsPath}",
     "page": "Library",
     "title": "Dubins.dubins_path_type",
     "category": "method",
-    "text": "Extract the integer that represents which path type was used\n\npath      - an initialized path\nreturn    - one of LSL-0, LSR-1, RSL-2, RSR-3, RLR-4, LRL-5\n\n\n\n"
+    "text": "Extract the integer that represents which path type was used\n\npath      - an initialized path\nreturn    - one of LSL-0, LSR-1, RSL-2, RSR-3, RLR-4, LRL-5\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_segment_length-Tuple{Dubins.DubinsPath,Int64}",
+    "location": "library/#Dubins.dubins_segment_length-Tuple{DubinsPath,Int64}",
     "page": "Library",
     "title": "Dubins.dubins_segment_length",
     "category": "method",
-    "text": "Calculate the length of a specific segment of  an initialized path\n\npath      - path to find the length of\ni         - the segment for which the length is required (1-3)\nreturn    - segment length\n\n\n\n"
+    "text": "Calculate the length of a specific segment of  an initialized path\n\npath      - path to find the length of\ni         - the segment for which the length is required (1-3)\nreturn    - segment length\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_segment_length_normalized-Tuple{Dubins.DubinsPath,Int64}",
+    "location": "library/#Dubins.dubins_segment_length_normalized-Tuple{DubinsPath,Int64}",
     "page": "Library",
     "title": "Dubins.dubins_segment_length_normalized",
     "category": "method",
-    "text": "Calculate the normalized length of a specific segment of  an initialized path\n\npath      - path to find the length of\ni         - the segment for which the length is required (1-3)\nreturn    - normalized segment length\n\n\n\n"
+    "text": "Calculate the normalized length of a specific segment of  an initialized path\n\npath      - path to find the length of\ni         - the segment for which the length is required (1-3)\nreturn    - normalized segment length\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_shortest_path-Tuple{Array{Float64,1},Array{Float64,1},Float64}",
+    "location": "library/#Dubins.dubins_shortest_path-Tuple{Array{Float64,1},Array{Float64,1},Float64}",
     "page": "Library",
     "title": "Dubins.dubins_shortest_path",
     "category": "method",
-    "text": "Generate a path from an initial configuration to a target configuration with a specified maximum turning radius\n\nA configuration is given by [x, y, θ], where θ is in radians,\n\nq0        - a configuration specified by a 3-element vector [x, y, θ]\nq1        - a configuration specified by a 3-element vector [x, y, θ]\nρ         - turning radius of the vehicle\nreturn    - tuple (error code, dubins path). If error code != 0, then nothing is returned as the second argument\n\n\n\n"
+    "text": "Generate a path from an initial configuration to a target configuration with a specified maximum turning radius\n\nA configuration is given by [x, y, θ], where θ is in radians,\n\nq0        - a configuration specified by a 3-element vector [x, y, θ]\nq1        - a configuration specified by a 3-element vector [x, y, θ]\nρ         - turning radius of the vehicle\nreturn    - tuple (error code, dubins path). If error code != 0, then nothing is returned as the second argument\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.DubinsIntermediateResults",
+    "location": "library/#Dubins.DubinsIntermediateResults",
     "page": "Library",
     "title": "Dubins.DubinsIntermediateResults",
     "category": "type",
-    "text": "This data structure holds the information to compute the Dubins path in the transformed coordinates where the initial (x,y) is translated to the origin, the final the coordinate axis is rotated to make the x-axis aligned with the line joining the two points. The variable names follow the convention used in the paper \"Classification of the Dubins set\" by Andrei M. Shkel and Vladimir Lumelsky\n\n\n\n"
+    "text": "This data structure holds the information to compute the Dubins path in the transformed coordinates where the initial (x,y) is translated to the origin, the final the coordinate axis is rotated to make the x-axis aligned with the line joining the two points. The variable names follow the convention used in the paper \"Classification of the Dubins set\" by Andrei M. Shkel and Vladimir Lumelsky\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.DubinsIntermediateResults-Tuple{Array{Float64,1},Array{Float64,1},Float64}",
+    "location": "library/#Dubins.DubinsIntermediateResults-Tuple{Array{Float64,1},Array{Float64,1},Float64}",
     "page": "Library",
     "title": "Dubins.DubinsIntermediateResults",
     "category": "method",
-    "text": "Empty constructor for the DubinsIntermediateResults data type\n\n\n\n"
+    "text": "Empty constructor for the DubinsIntermediateResults data type\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_segment-Tuple{Float64,Array{Float64,1},Dubins.SegmentType}",
+    "location": "library/#Dubins.dubins_segment-Tuple{Float64,Array{Float64,1},SegmentType}",
     "page": "Library",
     "title": "Dubins.dubins_segment",
     "category": "method",
-    "text": "Operators that transform an arbitrary point qi, [x, y, θ], into an image point given a parameter t and segment type\n\nThe three operators correspond to L_SEG, R_SEG, and S_SEG\n\nL_SEG(x, y, θ, t) = [x, y, θ] + [ sin(θ + t) - sin(θ), -cos(θ + t) + cos(θ),  t]\nR_SEG(x, y, θ, t) = [x, y, θ] + [-sin(θ - t) + sin(θ),  cos(θ - t) - cos(θ), -t]\nS_SEG(x, y, θ, t) = [x, y, θ] + [ cos(θ) * t,           sin(θ) * t,           0]\nreturn    -  the image point as a 3-element vector\n\n\n\n"
+    "text": "Operators that transform an arbitrary point qi, [x, y, θ], into an image point given a parameter t and segment type\n\nThe three operators correspond to LSEG, RSEG, and S_SEG\n\nL_SEG(x, y, θ, t) = [x, y, θ] + [ sin(θ + t) - sin(θ), -cos(θ + t) + cos(θ),  t]\nR_SEG(x, y, θ, t) = [x, y, θ] + [-sin(θ - t) + sin(θ),  cos(θ - t) - cos(θ), -t]\nS_SEG(x, y, θ, t) = [x, y, θ] + [ cos(θ) * t,           sin(θ) * t,           0]\nreturn    -  the image point as a 3-element vector\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.dubins_word-Tuple{Dubins.DubinsIntermediateResults,Dubins.DubinsPathType}",
+    "location": "library/#Dubins.dubins_word-Tuple{Dubins.DubinsIntermediateResults,DubinsPathType}",
     "page": "Library",
     "title": "Dubins.dubins_word",
     "category": "method",
-    "text": "The function to call the corresponding Dubins path based on the path_type\n\nreturn        - tuple (error code, path length as a vector for corresponding path type)\n\n\n\n"
+    "text": "The function to call the corresponding Dubins path based on the path_type\n\nreturn        - tuple (error code, path length as a vector for corresponding path type)\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.set_tolerance-Tuple{Float64}",
+    "location": "library/#Dubins.set_tolerance-Tuple{Float64}",
     "page": "Library",
     "title": "Dubins.set_tolerance",
     "category": "method",
-    "text": "Reset tolerance value\n\n\n\n"
+    "text": "Reset tolerance value\n\n\n\n\n\n"
 },
 
 {
-    "location": "library.html#Dubins.jl-Library-1",
+    "location": "library/#Dubins.jl-Library-1",
     "page": "Library",
     "title": "Dubins.jl Library",
     "category": "section",
